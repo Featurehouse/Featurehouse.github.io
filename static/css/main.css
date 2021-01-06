@@ -1,0 +1,17 @@
+.title {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	text-align: center
+}
+.common {
+	font-family: 'Lucida Console', Monaco, monospace
+}
+.center {
+	text-align: center;
+}
+.bold {
+	font-style: bold
+}
+a:link {color: #0f0}
+a:visited {color: #888}
+a:hover {color: #fff; background-color: #0f0}
+a:active {color: #fff; background-color: #888}
