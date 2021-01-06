@@ -3,7 +3,12 @@
     <head>
         <link rel='stylesheet' href="/static/css/main.css" />
         <meta charset="utf-8" />
-        <script type='text/javascript'>
+        <title id='titleTag'>404 Not Found</title>
+    </head><body>
+    <h1 class='title' id='titleH1'>404 Not Found</h1>
+    <center><a href='/index.html' class='common' id='backToHomepage'>Back to homepage</a></center>
+    
+    <script type='text/javascript'>
             var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
             if (jsSrc.indexOf('zh') > -1) {
                 document.getElementById('titleTag').innerHTML = '404 找不到页面';
@@ -11,9 +16,5 @@
                 document.getElementById('backToHomepage').innerHTML = '回到首页';
             }
         </script>
-        <title id='titleTag'>404 Not Found</title>
-    </head><body>
-    <h1 class='title' id='titleH1'>404 Not Found</h1>
-    <center><a href='/index.html' class='common' id='backToHomepage'>Back to homepage</a></center>
     </body>
 </html>
